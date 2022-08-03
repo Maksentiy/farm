@@ -1,0 +1,13 @@
+drop database farm;
+
+create database farm charset 'utf8';
+use farm;
+
+
+create table product (id integer primary key auto_increment, name varchar(50) not null, type varchar(50) not null);
+
+create table harvest (id integer primary key auto_increment, product_id integer not null, weight double, price double, harvest_date date, expenses double not null, sold double, profit double , foreign key(product_id) references product(id));
+
+create table employee (id integer primary key auto_increment, first_name varchar(50) not null, second_name varchar(50) not null, position varchar(50) not null, pasport_id varchar(50) not null);
+
+create table work (id integer primary key auto_increment, employee_id integer not null, product_id integer not null, work_date date, harvest_weight double not null, salary double not null, foreign key(employee_id) references employee(id), foreign key(product_id) references product(id));

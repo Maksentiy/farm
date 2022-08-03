@@ -1,0 +1,57 @@
+03-08-2022 15:25:03 deleted work Harvesting{employee=Maksim Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=10.0, salary=20.0}
+03-08-2022 15:25:03 deleted harvest Harvest{id=1, product=Strawberry, weight=0.0, price=0.0, harvest_date=2022-08-01, expenses=0.0, sold=0.0, profit=0.0}
+03-08-2022 15:25:05 deleted work Harvesting{employee=Andrey Selyah, product=Apples, work_date=2022-08-03, harvest_weight=10.0, salary=20.0}
+03-08-2022 15:25:05 deleted harvest Harvest{id=2, product=Apples, weight=0.0, price=5.0, harvest_date=2022-08-03, expenses=0.0, sold=10.0, profit=30.0}
+03-08-2022 15:25:06 deleted work Harvesting{employee=Kris Janeel, product=Cucunbers, work_date=2022-08-03, harvest_weight=10.0, salary=20.0}
+03-08-2022 15:25:06 deleted harvest Harvest{id=3, product=Cucunbers, weight=0.0, price=0.0, harvest_date=2022-08-03, expenses=0.0, sold=0.0, profit=0.0}
+03-08-2022 15:25:42 added new employee Denis Konon
+03-08-2022 15:26:40 added new employee Alex Savich
+03-08-2022 15:26:59 updated product Cucumbers
+03-08-2022 15:27:50 added new work Harvesting{employee=Maksim Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=50.0, salary=25.0}
+03-08-2022 15:28:02 added new work Harvesting{employee=Andrey Selyah, product=Apples, work_date=2022-08-02, harvest_weight=30.0, salary=15.0}
+03-08-2022 15:28:16 added new work Harvesting{employee=Kris Janeel, product=Cucumbers, work_date=2022-08-03, harvest_weight=40.0, salary=20.0}
+03-08-2022 15:28:36 added new work Harvesting{employee=Denis Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=30.0, salary=15.0}
+03-08-2022 15:28:55 added new work Harvesting{employee=Alex Savich, product=Apples, work_date=2022-08-02, harvest_weight=20.0, salary=10.0}
+03-08-2022 15:37:14 deleted work Harvesting{employee=Maksim Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=50.0, salary=25.0}
+03-08-2022 15:40:10 added new product Strawberry
+03-08-2022 15:40:20 added new product Apples
+03-08-2022 15:40:32 added new product Cucumbers
+03-08-2022 15:40:56 added new employee Maksim Konon
+03-08-2022 15:41:44 added new employee Denael Washington
+03-08-2022 15:42:09 added new employee Andrey Selyah
+03-08-2022 15:42:31 added new employee Denis Konon
+03-08-2022 15:42:51 added new employee Sasha Savich
+03-08-2022 15:43:07 added new work Harvesting{employee=Maksim Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=50.0, salary=25.0}
+03-08-2022 15:43:07 added new harvest Harvest{id=null, product=Strawberry, weight=50.0, price=0.0, harvest_date=2022-08-01, expenses=25.0, sold=0.0, profit=0.0}
+03-08-2022 15:43:19 added new work Harvesting{employee=Denael Washington, product=Apples, work_date=2022-08-02, harvest_weight=23.0, salary=11.0}
+03-08-2022 15:43:20 added new harvest Harvest{id=null, product=Apples, weight=23.0, price=0.0, harvest_date=2022-08-02, expenses=11.0, sold=0.0, profit=0.0}
+03-08-2022 15:43:37 added new work Harvesting{employee=Andrey Selyah, product=Cucumbers, work_date=2022-08-03, harvest_weight=20.0, salary=10.0}
+03-08-2022 15:43:37 added new harvest Harvest{id=null, product=Cucumbers, weight=20.0, price=0.0, harvest_date=2022-08-03, expenses=10.0, sold=0.0, profit=0.0}
+03-08-2022 15:43:49 added new work Harvesting{employee=Denis Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=30.0, salary=15.0}
+03-08-2022 15:43:49 updated harvest Harvest{id=1, product=Strawberry, weight=80.0, price=0.0, harvest_date=2022-08-01, expenses=40.0, sold=0.0, profit=0.0}
+03-08-2022 15:43:59 added new work Harvesting{employee=Sasha Savich, product=Apples, work_date=2022-08-02, harvest_weight=40.0, salary=20.0}
+03-08-2022 15:43:59 updated harvest Harvest{id=2, product=Apples, weight=63.0, price=0.0, harvest_date=2022-08-02, expenses=31.0, sold=0.0, profit=0.0}
+03-08-2022 15:45:35 deleted work Harvesting{employee=Denael Washington, product=Apples, work_date=2022-08-02, harvest_weight=23.0, salary=11.0}
+03-08-2022 15:45:35 updated harvest Harvest{id=2, product=Apples, weight=63.0, price=0.0, harvest_date=2022-08-02, expenses=31.0, sold=0.0, profit=0.0}
+03-08-2022 15:45:36 deleted work Harvesting{employee=Maksim Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=50.0, salary=25.0}
+03-08-2022 15:45:36 updated harvest Harvest{id=1, product=Strawberry, weight=80.0, price=0.0, harvest_date=2022-08-01, expenses=40.0, sold=0.0, profit=0.0}
+03-08-2022 15:45:37 deleted work Harvesting{employee=Andrey Selyah, product=Cucumbers, work_date=2022-08-03, harvest_weight=20.0, salary=10.0}
+03-08-2022 15:45:37 deleted harvest Harvest{id=3, product=Cucumbers, weight=0.0, price=0.0, harvest_date=2022-08-03, expenses=0.0, sold=0.0, profit=0.0}
+03-08-2022 15:45:39 deleted work Harvesting{employee=Denis Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=30.0, salary=15.0}
+03-08-2022 15:45:39 updated harvest Harvest{id=1, product=Strawberry, weight=50.0, price=0.0, harvest_date=2022-08-01, expenses=25.0, sold=0.0, profit=0.0}
+03-08-2022 15:45:40 deleted work Harvesting{employee=Sasha Savich, product=Apples, work_date=2022-08-02, harvest_weight=40.0, salary=20.0}
+03-08-2022 15:45:40 updated harvest Harvest{id=2, product=Apples, weight=23.0, price=0.0, harvest_date=2022-08-02, expenses=11.0, sold=0.0, profit=0.0}
+03-08-2022 15:47:55 added new work Harvesting{employee=Maksim Konon, product=Strawberry, work_date=2022-08-01, harvest_weight=50.0, salary=25.0}
+03-08-2022 15:47:55 added new harvest Harvest{id=null, product=Strawberry, weight=50.0, price=0.0, harvest_date=2022-08-01, expenses=25.0, sold=0.0, profit=0.0}
+03-08-2022 15:48:05 added new work Harvesting{employee=Denael Washington, product=Strawberry, work_date=2022-08-01, harvest_weight=40.0, salary=20.0}
+03-08-2022 15:48:05 updated harvest Harvest{id=1, product=Strawberry, weight=90.0, price=0.0, harvest_date=2022-08-01, expenses=45.0, sold=0.0, profit=0.0}
+03-08-2022 16:06:46 added new work Harvesting{employee=Denis Konon, product=Cucumbers, work_date=2022-08-03, harvest_weight=50.0, salary=25.0}
+03-08-2022 16:06:46 added new harvest Harvest{id=null, product=Cucumbers, weight=50.0, price=0.0, harvest_date=2022-08-03, expenses=25.0, sold=0.0, profit=0.0}
+03-08-2022 16:07:20 added new harvest Harvest{id=1, product=Strawberry, weight=90.0, price=10.0, harvest_date=2022-08-01, expenses=45.0, sold=40.0, profit=355.0}
+03-08-2022 16:11:58 added new harvest Harvest{id=2, product=Cucumbers, weight=50.0, price=10.0, harvest_date=2022-08-03, expenses=25.0, sold=50.0, profit=475.0}
+03-08-2022 16:14:34 added new harvest Harvest{id=2, product=Cucumbers, weight=50.0, price=10.0, harvest_date=2022-08-03, expenses=25.0, sold=50.0, profit=475.0}
+03-08-2022 16:18:11 added new harvest Harvest{id=1, product=Strawberry, weight=90.0, price=10.0, harvest_date=2022-08-01, expenses=45.0, sold=40.0, profit=355.0}
+03-08-2022 16:24:16 added new product srgsrg
+03-08-2022 16:24:29 deleted product srgsrg
+03-08-2022 16:24:36 added new product grewrg
+03-08-2022 16:24:50 deleted product grewrg
