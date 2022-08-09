@@ -86,15 +86,16 @@
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
          <children>
             <Button fx:id="add" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#OnAddButtonClick" prefHeight="25.0" prefWidth="61.0" text="Add" />
-            <Button fx:id="back" layoutX="91.0" layoutY="35.0" mnemonicParsing="false" onAction="#OnBackButtonClick" prefHeight="25.0" prefWidth="61.0" text="Back" />
-            <TableView fx:id="table" layoutX="-1.0" layoutY="125.0" prefHeight="200.0" prefWidth="152.0">
+            <Button fx:id="back" layoutX="188.0" layoutY="10.0" mnemonicParsing="false" onAction="#OnBackButtonClick" prefHeight="25.0" prefWidth="61.0" text="Back" />
+            <TableView fx:id="table" layoutX="-1.0" layoutY="125.0" prefHeight="200.0" prefWidth="250.0">
               <columns>
-                <TableColumn fx:id="name" prefWidth="75.0" text="Name" />
-                <TableColumn fx:id="type" prefWidth="75.0" text="Type" />
+                <TableColumn fx:id="name" prefWidth="134.0" text="Name" />
+                <TableColumn fx:id="type" prefWidth="114.0" text="Type" />
               </columns>
             </TableView>
-            <Button fx:id="update" layoutX="14.0" layoutY="48.0" mnemonicParsing="false" onAction="#OnUpdateButtonClick" prefHeight="25.0" prefWidth="61.0" text="Update" />
-            <Button fx:id="delete" layoutX="14.0" layoutY="86.0" mnemonicParsing="false" onAction="#OnDeleteButtonClick" prefHeight="25.0" prefWidth="61.0" text="Delete" />
+            <Button fx:id="update" layoutX="14.0" layoutY="86.0" mnemonicParsing="false" onAction="#OnUpdateButtonClick" prefHeight="25.0" prefWidth="61.0" text="Update" />
+            <Button fx:id="delete" layoutX="188.0" layoutY="86.0" mnemonicParsing="false" onAction="#OnDeleteButtonClick" prefHeight="25.0" prefWidth="61.0" text="Delete" />
+            <Button fx:id="reload" layoutX="98.0" layoutY="51.0" mnemonicParsing="false" onAction="#OnReloadButtonClick" text="Reload" />
          </children>
     </AnchorPane>
   </children>

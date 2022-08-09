@@ -1,0 +1,5 @@
+09-08-2022 13:36:57 added new product Pepper
+09-08-2022 13:38:11 added new employee Borid Savich
+09-08-2022 13:38:23 updated employee Boris Savich
+09-08-2022 13:38:49 added new harvesting Harvesting{employee=Boris Savich, product=Apples, work_date=2022-08-02, harvest_weight=30.0, salary=15.0}
+09-08-2022 13:38:49 added new harvest Harvest{id=null, product=Apples, weight=30.0, price=0.0, harvest_date=2022-08-02, expenses=15.0, sold=0.0, profit=0.0}

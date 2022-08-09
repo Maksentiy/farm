@@ -1,0 +1,3 @@
+05-08-2022 14:35:50 added new employee dafga agfafg
+05-08-2022 14:35:57 deleted dafga agfafg
+05-08-2022 14:41:01 added new harvest Harvest{id=2, product=Cucumbers, weight=50.0, price=40.0, harvest_date=2022-08-03, expenses=25.0, sold=50.0, profit=1975.0}

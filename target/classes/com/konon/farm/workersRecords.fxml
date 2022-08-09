@@ -95,11 +95,12 @@
                   <TableColumn fx:id="id" minWidth="0.0" prefWidth="0.0" text="id" />
               </columns>
             </TableView>
-            <Button fx:id="new_record" layoutX="14.0" layoutY="44.0" mnemonicParsing="false" onAction="#OnNewRecordButtonClick" text="New Record" />
+            <Button fx:id="new_record" layoutX="14.0" layoutY="25.0" mnemonicParsing="false" onAction="#OnNewRecordButtonClick" text="New Record" />
             <Button fx:id="products" layoutX="321.0" layoutY="56.0" mnemonicParsing="false" onAction="#OnProductsButtonClick" prefHeight="25.0" prefWidth="74.0" text="Products" />
             <Button fx:id="employees" layoutX="321.0" layoutY="25.0" mnemonicParsing="false" onAction="#OnEmployeesButtonClick" prefHeight="25.0" prefWidth="74.0" text="Employees" />
-            <Button fx:id="update" layoutX="138.0" layoutY="44.0" mnemonicParsing="false" onAction="#OnUpdateButtonClick" text="Update" />
-            <Button fx:id="delete" layoutX="222.0" layoutY="44.0" mnemonicParsing="false" onAction="#OnDeleteButtonClick" text="Delete" />
+            <Button fx:id="update" layoutX="137.0" layoutY="25.0" mnemonicParsing="false" onAction="#OnUpdateButtonClick" text="Update" />
+            <Button fx:id="delete" layoutX="220.0" layoutY="25.0" mnemonicParsing="false" onAction="#OnDeleteButtonClick" text="Delete" />
+            <Button fx:id="reload" layoutX="139.0" layoutY="56.0" mnemonicParsing="false" onAction="#OnReloadButtonClick" text="Reload" />
       </children>
     </AnchorPane>
   </children>
