@@ -11,6 +11,4 @@ public interface Default<T> {
     void delete(Integer id);
 
     void insert(T entity);
-
-    List<T> searchByDates(Integer firstValue, Integer secondValue);
 }

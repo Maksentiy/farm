@@ -70,8 +70,7 @@ public class ProductCRUD implements Default<Product> {
         }
     }
 
-    @Override
-    public List<Product> searchByDates(Integer firstValue, Integer secondValue) {
+    public List<Product> search(Integer firstValue, Integer secondValue) {
         return null;
     }
 }

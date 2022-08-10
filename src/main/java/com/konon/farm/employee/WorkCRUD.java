@@ -76,8 +76,7 @@ public class WorkCRUD implements Default<Work> {
         }
     }
 
-    @Override
-    public List<Work> searchByDates(Integer firstValue, Integer secondValue) {
+    public List<Work> search(Integer firstValue, Integer secondValue) {
         return null;
     }
 }

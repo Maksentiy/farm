@@ -4,10 +4,7 @@ import com.konon.farm.db.Connect;
 import com.konon.farm.db.Default;
 import com.konon.farm.db.Helper;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -74,11 +71,6 @@ public class HarvestCRUD implements Default<Harvest> {
         }
     }
 
-    @Override
-    public List<Harvest> searchByDates(Integer firstValue, Integer secondValue) {
-        return null;
-    }
-
     private Harvest checkAvailability(Harvest harvest) {
         List<Harvest> all = getAll();
         for (Harvest checkHarvest: all) {
@@ -106,5 +98,15 @@ public class HarvestCRUD implements Default<Harvest> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public List<Harvest> searchByDates(Date startDate, Date lastDate, List<Harvest> harvestList) {
+        List<Harvest> finalHarvestList = new ArrayList<>();
+        for (Harvest harvest:harvestList) {
+            if (harvest.getHarvest_date().before(lastDate) && harvest.getHarvest_date().after(startDate)) {
+                finalHarvestList.add(harvest);
+            }
+        }
+        return  finalHarvestList;
     }
 }

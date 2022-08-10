@@ -74,8 +74,13 @@ public class EmployeeCRUD implements Default<Employee> {
         }
     }
 
-    @Override
-    public List<Employee> searchByDates(Integer firstValue, Integer secondValue) {
-        return null;
+    public boolean search(String s) {
+        List<Employee> all = getAll();
+        for (Employee employee:all) {
+            if (employee.getPasport_id().equals(s)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

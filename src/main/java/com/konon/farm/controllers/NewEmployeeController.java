@@ -55,6 +55,11 @@ public class NewEmployeeController {
         stage.initModality(WINDOW_MODAL);
         stage.initOwner(((Node)event.getSource()).getScene().getWindow());
         Employee employee = new Employee(firstName.getText(), secondName.getText(), position.getText(), pasport_id.getText());
+        EmployeeCRUD employeeCRUD = new EmployeeCRUD();
+        if (id == null && employeeCRUD.search(employee.getPasport_id())) {
+            showIdAlert();
+            return;
+        }
         if (fieldsCheck() && id == null) {
             new Thread(new EmployeeThread("insert", employee)).start();
             new Thread(new TextFileThread<Employee>("added new employee", employee)).start();
@@ -114,6 +119,13 @@ public class NewEmployeeController {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Ahtung!!!!");
         alert.setHeaderText("Not all fields filled");
+        alert.showAndWait();
+    }
+
+    public static void showIdAlert() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Ahtung!!!!");
+        alert.setHeaderText("Employee with same pasport id already exist");
         alert.showAndWait();
     }
 }

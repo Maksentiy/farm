@@ -138,6 +138,17 @@ public class HarvestingController {
         }
     }
 
+    @FXML
+    private void OnReportButtonClick(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        FXMLLoader loader = new FXMLLoader(App.class.getResource("/com/konon/farm/report.fxml"));
+        stage.setScene(new Scene(loader.load()));
+        stage.setTitle("Report");
+        stage.initModality(WINDOW_MODAL);
+        stage.initOwner(((Node)event.getSource()).getScene().getWindow());
+        stage.show();
+    }
+
     private void initialData(ObservableList<Harvest> harvests) {
         id.setCellValueFactory(new PropertyValueFactory<Harvest, Integer>("id"));
         price.setCellValueFactory(new PropertyValueFactory<Harvest, Double>("price"));
